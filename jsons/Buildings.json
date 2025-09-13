@@ -1,25 +1,71 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+    {
+        "name": "Mosque",
+        "culture": 10,
+        "faith": 20,
+        "happiness": 10,
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Acts as a hub for community and spiritual growth",
+            "Hidden when religion is disabled",
+            "[+10]% Culture in city with established trade route"
+        ]
+    },
+    {
+        "name": "Madrasah",
+        "culture": 5,
+        "faith": 10,
+        "science": 10,
+        "happiness": 5,
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Provides education and religious teachings",
+            "Hidden when religion is disabled",
+            "[+10 Science] from every [Mosque] in this city"
+        ]
+    },
+    {
+        "name": "Bazaar",
+        "culture": 10,
+        "gold": 20,
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Enhances trade and economic growth",
+            "[+10 Gold] from each trade route passing through or originating from this city",
+            "[+20 Gold] from luxury resources in this city"
+        ]
+    },
+    {
+        "name": "Caravanserai",
+        "culture": 10,
+        "gold": 10,
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Supports overland trade and provides rest for travelers and traders",
+            "[+20]% Gold from land trade routes originating from this city"
+        ]
+    },
+    {
+        "name": "Hammam",
+        "culture": 5,
+        "happiness": 6,
+        "health": 10,
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Provides public toilet for sanitation and relaxation",
+            "[+20]% Health in this city"
+        ]
+    },
+    {
+        "name": "Minaret",
+        "culture": 5,
+        "faith": 10,
+        "happiness": 5,
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Symbolizes Islamic architecture and spirituality",
+            "[+20]% Faith generation in city",
+            "Enhances city's skyline and cultural identity"
+        ]
+    }
 ]
