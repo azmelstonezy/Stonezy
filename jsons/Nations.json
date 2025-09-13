@@ -23,7 +23,7 @@
     "innerColor": [255, 235, 205],
     "favoredReligion": "Islam",
     "uniqueName": "The Hijra",
-    "uniques": ["+10 Faith from each trade route with a different civilization", "+50% Production towards buildings that provide Faith or Culture"],
+    "uniques": ["+10 Faith from each trade route with a different civilization", "+50% Production towards buildings that provide Faith or Culture"], ["[100]% Strength <for [Wounded] units>","[+100] Movement <for [non-air] units>", "[+1000]% Golden Age length"],
     "cities": ["Medina", "Mecca", "Taif", "Tabuk", "Quba", "Khaibar", "Yathrib"]
 }	}
 ]
